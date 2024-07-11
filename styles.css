@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your background image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#location-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #2980b9;
+}
+
+.weather-display {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.weather-info {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.weather-info h2 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.weather-info p {
+    margin: 8px 0;
+    font-size: 1.2em;
+}
+
+.weather-info img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
